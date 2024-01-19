@@ -11,15 +11,23 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-image: url('/img/hwwade.png');
+    flex-direction: column;
+    padding: 00.1px;
     color: #fff;
-    text-align: center;
-    padding: 20px;
+    display: flex;
+    align-items: center;
 }
-
+#logo{
+    max-width: 100px;
+    margin-right: 10px;
+    border-radius: 50px; 
+}
 nav {
-    background-color: #eee;
+    background-image: url('/img/hwwade.png');
     padding: 10px;
+    border-color: #ccc;
+    position: sticky;
 }
 
 nav ul {
@@ -34,7 +42,7 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #333;
+    color: #fff;
     font-weight: bold;
 }
 
@@ -59,3 +67,23 @@ footer {
 }
 
 /* Adicione estilos adicionais conforme necessário */
+
+.social-icons {
+    display: flex;
+    justify-content:center;
+    margin-bottom: 10px;
+    
+  }
+  .icon-link {
+    margin-right: 10px;
+    text-decoration: none;
+  }
+  
+  .icon-link img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+  p {
+    margin: 0;
+  }
