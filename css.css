@@ -1,0 +1,77 @@
+$btnBackground: rgba(0, 0, 0, 0.7);
+html {
+  height: 100%;
+  body {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.6)), url(https://unsplash.it/1920/1080?image=871) fixed;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+  }
+  .contact {
+    align-self: center;
+    i {
+      padding: 0 20px;
+      font-size: 0.8em;
+    }
+    h2 {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 2.5em;
+      border: 1px solid #555;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding-top: 20px;
+      height: 75px;
+      color: #fff;
+      font-weight: 500;
+      line-height: 40px;
+      padding-left: 50px;
+      text-align: center;
+    }
+  }
+  #contactform {
+    height: 215px;
+    .right {
+      float: right;
+    }
+    input {
+      margin-bottom: 14px;
+      width: 100%;
+      outline: none;
+      border: none;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 11px;
+      padding-left: 15px;
+      height: 44px;
+      border-radius: 0;
+    }
+    textarea {
+      margin-bottom: 14px;
+      width: 100%;
+      outline: none;
+      border: none;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 11px;
+      padding: 15px;
+      height: 218px;
+      border-radius: 0;
+    }
+    .btn {
+      width: 100%;
+      height: 50px;
+      border-radius: 0;
+      border: 1px solid #333;
+      background: $btnBackground;
+      color: #fff;
+      &:hover {
+        background: lighten($btnBackground, 20%);
+      }
+    }
+  }
+  #map-canvas {
+    width: 100%;
+    height: 135px;
+    margin-bottom: 15px;
+    border: 2px solid #fff;
+  }
+}

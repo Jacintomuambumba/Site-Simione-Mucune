@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simione Mucune</title>
+    <!-- Adicione aqui os seus estilos CSS -->
+    <link rel="stylesheet" href="/Contacto.css">
+</head>
+
+
+<body>
+
+    <header>
+        <img src="/img/transferir (1).jpeg" alt="Logo da Empresa" id="logo">
+        <h1>Instituto Médio Politecnico Simione Mucune</h1>
+        <p>Construindo o Futuro Juntos</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="/Paginas/Index.html" target="" >Inicio</a></li>
+            <li><a href="/Paginas/Inscricao.html">Inscrição</a></li>
+            <li><a href="/Paginas/Cursos.html">Cursos </a></li>
+            <li><a href="/Paginas/Eventos.html">Eventos</a></li>
+            <li><a href="/Paginas/Fotos.html">Galeria de Fotos</a></li>
+            <li><a href="/Paginas/Contacto.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="contact" id="contact">
+        <div class="container">
+          <div class="col-md-offset-1 col-md-10">
+            <h2>Contacta-nos<i class="fa fa-paper-plane-o"></i></h2>
+            <div id="map-canvas"></div>
+          </div>
+          <form method="post" action="contact.php" name="contactform" id="contactform">
+            <div class="col-md-offset-1 col-md-5">
+              <fieldset>
+                <input name="name" type="text" id="name" size="30" placeholder="Nome">
+                <br>
+                <input name="email" type="text" id="email" size="30" placeholder="Email">
+                <br>
+                <input name="phone" type="text" id="phone" size="30" placeholder="Numero de Telefone">
+                <br>
+                <input name="human" type="text" id="human" size="30" placeholder="Quanto é 2+2?">
+                <br>
+              </fieldset>
+            </div>
+            <div class="col-md-5">
+              <fieldset>
+                <textarea name="comments" cols="40" rows="20" id="comments" placeholder="Mensagem"></textarea>
+              </fieldset>
+            </div>
+            <div class="col-md-offset-1 col-md-10">
+              <fieldset>
+                <button type="submit" class="btn btn-lg" id="submit" value="Submit">Enviar Mensagem</button>
+              </fieldset>
+            </div>
+          </form>
+        </div>
+      </div>
+      <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+    <footer>
+        <div class="social-icons">
+            <a href="#" class="icon-link"><img src="/img/145802.png" alt="Facebook"></a>
+            <a href="#" class="icon-link"><img src="/img/twitter-icone.png" alt="Twitter"></a>
+            <a href="#" class="icon-link"><img src="/img/insta.png" alt="Instagram"></a>
+            <!-- Adicione mais ícones e links conforme necessário -->
+          </div>
+        <p> Instituto Médio Industrial Simione Mucune &copy;2024</p>
+        <p>Endereço: Bairro Prenda Lote 22, Luanda Angola</p>
+    </footer>
+
+</body>
+
+</html>

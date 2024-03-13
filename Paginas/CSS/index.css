@@ -87,6 +87,9 @@ section {
 
 h2{
     text-align: center;
+    text-decoration: underline;
+    text-decoration-color: aqua;
+
     
 }
 
@@ -100,11 +103,7 @@ footer {
     width: 100%;
 }
 
-/* Estilos específicos para cada seção */
-#sobre, #recursos, #pautas, #admissoes, #contato, #galeria {
-    margin-bottom: 30px;
-    border-bottom: 1px solid #ccc;
-}
+
 
 /* Adicione estilos adicionais conforme necessário */
 
@@ -150,80 +149,14 @@ footer {
     max-width: 100%;
     height: auto;
     display: block;
+    border-radius: 50px;
+    border: 20px #ccc;
+    border-color: aqua;
 }
-.container img{
-    width: 100px;
-    margin: 6px;
-    border-radius: 15px;
-    transition:  0.3s all ease-out;
-    
+.imagem-escola img:hover{
+    transform: scale(1.05);
 }
-
-.c
 
 .container img:hover {
-    transform: scale(1.04)
-}
-
-#sobre{
-    text-align: left;
-    display: flex;
-   flex-direction: column;
-   gap: 10px;
-   align-items: center
-}
-#descrição{
-    
-}
-
-
-/* Sessão de inscrição */
-
-
-.container {
-  max-width: 500px;
-  margin: 50px auto;
-  background-color: hsl(0, 7%, 25%);
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-  text-align: center;
-}
-
-form {
-  display: grid;
-  grid-gap: 10px;
-}
-
-label {
-  font-weight: bold;
-}
-
-input[type="text"],
-input[type="email"],
-input[type="tel"],
-input[type="number"],
-textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-input[type="submit"] {
-  width: 100%;
-  padding: 10px;
-  border: none;
-  border-radius: 5px;
-  background-color: #007bff;
-  color: #fff;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-input[type="submit"]:hover {
-  background-color: #0056b3;
+    transform: scale(1.04);
 }
